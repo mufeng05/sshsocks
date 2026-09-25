@@ -84,3 +84,7 @@ go build -trimpath -ldflags "-s -w -H windowsgui" -o sshsocks.exe .
 $env:SSHSOCKS_ICON_OUT="winres"; go test -run TestWriteIcons .
 go run github.com/tc-hib/go-winres@v0.3.3 simply --arch amd64 --out rsrc --manifest gui --icon winres\icon.ico
 ```
+
+## 许可证
+
+[MIT](LICENSE)
