@@ -1,0 +1,7 @@
+# 运行时生成：配置文件里可能有服务器密码，不要提交
+sshsocks.conf
+sshsocks.log
+sshsocks.log.old
+
+# 编译产物，通过 Releases 发布
+*.exe
